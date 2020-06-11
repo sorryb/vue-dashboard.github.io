@@ -23,7 +23,7 @@ export default new Router({
       component: Dashboard,
       meta: {
         breadcrumb: [
-          { name: 'Dashboard' }
+          { name: 'Hazards Dashboard' }
         ]
       }
     },
