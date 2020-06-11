@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/vue-dashboard.github.io/'
+  publicPath: '/vue-dashboard/'
 }
