@@ -16,7 +16,8 @@
     :headers="headers"
     :items="hazards"
     :search="search"
-    :rows-per-page-items="[5, 10, 25]">
+    :pagination.sync="pagination"
+    >
     <template slot="items" slot-scope="props">
       <td class="text-xs-left">
         <v-avatar size="42">
@@ -39,6 +40,7 @@
 import hazardsFromFile from './hazards.json'
 const hazardsJson = hazardsFromFile;
 
+/*
 const avatars = [
   'https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelGreen&clotheType=ShirtScoopNeck&eyeType=Wink&eyebrowType=UnibrowNatural&facialHairColor=Black&facialHairType=MoustacheMagnum&hairColor=Platinum&mouthType=Concerned&skinColor=Tanned&topType=Turban',
   'https://avataaars.io/?accessoriesType=Sunglasses&avatarStyle=Circle&clotheColor=Gray02&clotheType=ShirtScoopNeck&eyeType=EyeRoll&eyebrowType=RaisedExcited&facialHairColor=Red&facialHairType=BeardMagestic&hairColor=Red&hatColor=White&mouthType=Twinkle&skinColor=DarkBrown&topType=LongHairBun',
@@ -46,11 +48,26 @@ const avatars = [
   'https://avataaars.io/?accessoriesType=Round&avatarStyle=Circle&clotheColor=PastelOrange&clotheType=Overall&eyeType=Close&eyebrowType=AngryNatural&facialHairColor=Blonde&facialHairType=Blank&graphicType=Pizza&hairColor=Black&hatColor=PastelBlue&mouthType=Serious&skinColor=Light&topType=LongHairBigHair',
   'https://avataaars.io/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=Gray01&clotheType=BlazerShirt&eyeType=Surprised&eyebrowType=Default&facialHairColor=Red&facialHairType=Blank&graphicType=Selena&hairColor=Red&hatColor=Blue02&mouthType=Twinkle&skinColor=Pale&topType=LongHairCurly',
   'https://avataaars.io/?'
+];*/
+
+const avatars = [
+  '1.jpg',
+  '2.jpg',
+  '3.jpg',
+  '4.jpg',
+  '5.jpg',
+  '6.jpg',
+  '7.jpg',
+  '8.jpg',
+  '9.jpg',
+  '10.jpg',
 ];
+
 
 export default {
   data() {
     return {
+      pagination : {'sortBy': 'name', 'descending': true, 'rowsPerPage': 5},
       search: '',
       hazards: hazardsJson,
       headers: [
@@ -61,37 +78,37 @@ export default {
         },
         {
           text: 'Hazard Name',
-          value: 'Name',
+          value: 'name',
           align: 'left',
           sortable: true
         },
         {
           text: 'Employee Name',
-          value: 'EmployeeName',
+          value: 'employeeName',
           align: 'left',
           sortable: true
         },
         {
           text: 'Hazard Id',
-          value: 'HazardId',
+          value: 'hazardId',
           align: 'left',
           sortable: true
         },
         {
           text: 'Category',
-          value: 'Category',
+          value: 'category',
           align: 'left',
           sortable: true
         },
         {
           text: 'Description',
-          value: 'Description',
+          value: 'description',
           align: 'left',
           sortable: true
         },
         {
           text: 'Discipline',
-          value: 'Discipline',
+          value: 'discipline',
           align: 'left',
           sortable: true
         }
@@ -101,8 +118,9 @@ export default {
 
   methods: {
     randomAvatar () {
-
-      return avatars[Math.floor(Math.random() * avatars.length)];
+      //return avatars[Math.floor(Math.random() * avatars.length)];
+      const img = require('../assets/' + avatars[Math.floor(Math.random() * avatars.length)]);
+      return img;
     },
   },
 
