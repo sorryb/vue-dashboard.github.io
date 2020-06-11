@@ -1,0 +1,416 @@
+[
+	{
+		"id": 1,
+		"name": "Probleme la scaun",
+		"employeeName": "Jorhe",
+		"hazardId": "HZD-19-09-07-03-2C0DF88D",
+		"location": {
+			"floorId": "1-770-736-8031 x56442",
+			"floorName": "3rd Floor",
+			"city": "Bucharest",
+			"building": "AFI 1",
+			"geo": {
+				"lat": "-37.3159",
+				"lng": "81.1496"
+			}
+		},
+		"category": "For ITS",
+		"description": "Probleme la scaun din cauza lipsa surub.",
+		"employee": {
+			"id": "EMP-19-08-28-03-01B78F43",
+			"fullName": "Jorhe Hilguiera",
+			"discipline": "development"
+		}
+	},
+	{
+		"id": 2,
+		"name": "Probleme la birou",
+		"employeeName": "Antonette",
+		"hazardId": "HZD-19-08-28-03-01B78F43",
+		"location": {
+			"floorId": "FLR-19-08-28-03-01B78F43",
+			"floorName": "floorName 879",
+			"city": "Wisokyburgh",
+			"building": "90566-7771",
+			"geo": {
+				"lat": "-43.9509",
+				"lng": "-34.4618"
+			}
+		},
+		"category": "Food",
+		"description": "Probleme la birou din cauza pozitionarii.",
+		"employee": {
+			"id": "Deckow-Crist",
+			"fullName": "Proactive didactic contingency",
+			"discipline": "testing"
+		}
+	},
+	{
+		"id": 3,
+		"name": "Trebuie inlocuita priza",
+		"employeeName": "Samantha",
+		"hazardId": "HZD-23-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Douglas Extension",
+			"floorName": "floorName 847",
+			"city": "McKenziehaven",
+			"building": "59590-4157",
+			"geo": {
+				"lat": "-68.6102",
+				"lng": "-47.0653"
+			}
+		},
+		"category": "Facilities",
+		"description": "Priza arsa scurtcircuit.",
+		"employee": {
+			"id": "Romaguera-Jacobson",
+			"fullName": "Face to face bifurcated interface",
+			"discipline": "testing"
+		}
+	},
+	{
+		"id": 4,
+		"name": "Nu functioneaza biroul",
+		"employeeName": "Karianne",
+		"hazardId": "HZD-33-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Hoeger Mall",
+			"floorName": "Apt. 692",
+			"city": "South Elvis",
+			"building": "53919-4257",
+			"geo": {
+				"lat": "29.4572",
+				"lng": "-164.2990"
+			}
+		},
+		"category": "General",
+		"description": "Proasta calitate a imbinarilor. Trebuie alta masa.",
+		"employee": {
+			"id": "Robel-Corkery",
+			"fullName": "Multi-tiered zero tolerance productivity",
+			"discipline": "facilities"
+		}
+	},
+	{
+		"id": 5,
+		"name": "Clanta usa stricata",
+		"employeeName": "Kamren",
+		"hazardId": "HZD-98-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Skiles Walks",
+			"floorName": "floorName 351",
+			"city": "Roscoeview",
+			"building": "33263",
+			"geo": {
+				"lat": "-31.8129",
+				"lng": "62.5342"
+			}
+		},
+		"category": "Easy",
+		"description": "Producator foarte ieftin. Gasit alt furnizor de servicii.",
+		"employee": {
+			"id": "Keebler LLC",
+			"fullName": "User-centric fault-tolerant solution",
+			"discipline": "testing"
+		}
+	},
+	{
+		"id": 6,
+		"name": "Lipsa vesela la bucatarie",
+		"employeeName": "Leopoldo_Corkery",
+		"hazardId": "HZD-87-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Norberto Crossing",
+			"floorName": "Apt. 950",
+			"city": "South Christy",
+			"building": "23505-1337",
+			"geo": {
+				"lat": "-71.4197",
+				"lng": "71.7478"
+			}
+		},
+		"category": "Food",
+		"description": "Nu exista linguri si nici furculite.",
+		"employee": {
+			"id": "Considine-Lockman",
+			"fullName": "Synchronised bottom-line interface",
+			"discipline": "ardevelopment"
+		}
+	},
+	{
+		"id": 7,
+		"name": "Fructe stricate",
+		"employeeName": "Elwyn.Skiles",
+		"hazardId": "HZD-09-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Rex Trail",
+			"floorName": "floorName 280",
+			"city": "Howemouth",
+			"building": "58804-1099",
+			"geo": {
+				"lat": "24.8918",
+				"lng": "21.8984"
+			}
+		},
+		"category": "For ITS",
+		"description": "Fructele nu sunt coapte. Cosul este murdar.",
+		"employee": {
+			"id": "Johns Group",
+			"fullName": "Configurable multimedia task-force",
+			"discipline": "architecture"
+		}
+	},
+	{
+		"id": 8,
+		"name": "Imprimanta fara toner",
+		"employeeName": "Maxime_Nienow",
+		"hazardId": "HZD-12-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Ellsworth Summit",
+			"floorName": "floorName 729",
+			"city": "Aliyaview",
+			"building": "45169",
+			"geo": {
+				"lat": "-14.3990",
+				"lng": "-120.7677"
+			}
+		},
+		"category": "Danger",
+		"description": "Probleme la imprimanta; toner, lipsa foi, etc.",
+		"employee": {
+			"id": "Abernathy Group",
+			"fullName": "Implemented secondary concept",
+			"discipline": "architecture"
+		}
+	},
+	{
+		"id": 9,
+		"name": "Cafea de proasta calitate",
+		"employeeName": "Delphine",
+		"hazardId": "HZD-67-08-28-03-01B78F43",
+		"location": {
+			"floorId": "Dayna Park",
+			"floorName": "floorName 449",
+			"city": "Bartholomebury",
+			"building": "76495-3109",
+			"geo": {
+				"lat": "24.6463",
+				"lng": "-168.8889"
+			}
+		},
+		"category": "Easy",
+		"description": "Cafea de foarte proasta calitate.",
+		"employee": {
+			"id": "Yost and Sons",
+			"fullName": "Switchable contextually-based project",
+			"discipline": "project management"
+		}
+	},
+	{
+		"id": 10,
+		"name": "Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "business analist"
+		}
+	},
+	{
+		"id": 11,
+		"name": "11.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "business analist"
+		}
+	},
+	{
+		"id": 12,
+		"name": "12.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "business analist"
+		}
+	},
+	{
+		"id": 13,
+		"name": "13.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "project management"
+		}
+	},
+	{
+		"id": 14,
+		"name": "14.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "development"
+		}
+	},
+	{
+		"id": 15,
+		"name": "15.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "testing"
+		}
+	},
+	{
+		"id": 16,
+		"name": "16.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "business analist"
+		}
+	},
+	{
+		"id": 17,
+		"name": "17.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "business analist"
+		}
+	},
+	{
+		"id": 18,
+		"name": "18.Nu functioneaza in sala de sedinte - TV.",
+		"employeeName": "Moriah.Stanton",
+		"hazardId": "HZD-54-45-28-03-01B78F43",
+		"location": {
+			"floorId": "Kattie Turnpike",
+			"floorName": "floorName 198",
+			"city": "Lebsackbury",
+			"building": "31428-2261",
+			"geo": {
+				"lat": "-38.2386",
+				"lng": "57.2232"
+			}
+		},
+		"category": "Danger",
+		"description": "Sala de sedinte are TV-ul stricat. Usa nu se inchide.",
+		"employee": {
+			"id": "Hoeger LLC",
+			"fullName": "Centralized empowering task-force",
+			"discipline": "business analist"
+		}
+	}
+]
