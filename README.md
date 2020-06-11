@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Vue Admin Template
+Sample Admin Template based on Vuejs &amp; Vuetify.
 
-You can use the [editor on GitHub](https://github.com/sorryb/vue-dashboard.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
+Vue Admin Template is a Vue.js Based Admin Template. This template uses the vuetify components and styles.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Demo
+[Live Demo](https://fatihunlu.github.io/vue-admin-template)
 
-### Markdown
+## Preview
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Preview](https://github.com/fatihunlu/vue-admin-template/blob/master/static/template.gif)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Reference
 
-- Bulleted
-- List
+* [Vue.js](https://vuejs.org/)
+* [Vuetifyjs](https://vuetifyjs.com/)
+* [VueChartKick](https://github.com/ankane/vue-chartkick)
+* [vue-fullcalendar](https://github.com/Wanderxx/vue-fullcalendar)
+* [vue-swatches](https://saintplay.github.io/vue-swatches/#sub-using-a-preset)
 
-1. Numbered
-2. List
+## Build Setup
 
-**Bold** and _Italic_ and `Code` text
+``` bash
+# install dependencies
+npm install
 
-[Link](url) and ![Image](src)
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## License
+*MIT*
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sorryb/vue-dashboard.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### How can I support developers?
+- Star my GitHub repo :star:
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
