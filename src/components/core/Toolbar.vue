@@ -141,7 +141,7 @@
       {{ result }}
     </v-snackbar>
 
-    <v-btn icon href="https://github.com/fatihunlu" :ripple="false">
+    <v-btn icon href="https://github.com/sorryb/vue-dashboard" :ripple="false">
       <v-icon medium>fab fa-github</v-icon>
     </v-btn>
     <v-menu offset-y origin="center center" :nudge-bottom="10" transition="scale-transition">
@@ -259,7 +259,7 @@ export default {
       notifications:
       [
         {
-          title: 'New mail from Adam Joe',
+          title: 'New hazard from Adam Joe : Brocken glass',
           color: 'light-blue',
           icon: 'email',
           actionAt: '12 min ago',
@@ -271,10 +271,10 @@ export default {
           }
         },
         {
-          title: 'Scheculed meeting',
+          title: 'Expired hazard from Mark Richards: brocken gl.',
           color: 'red',
           icon: 'calendar_today',
-          actionAt: '46 min ago',
+          actionAt: '15 days ago',
           isActive: true,
           onClick: () => {
             const vm = this;
@@ -283,11 +283,11 @@ export default {
           }
         },
         {
-          title: 'New mail from Github',
-          color: 'light-blue',
+          title: 'New hazard from Simon Sun: room issues',
+          color: 'green',
           icon: 'email',
           isActive: true,
-          timeLabel: '2 hour ago',
+          actionAt: '2 hour ago',
           onClick: () => {
             const vm = this;
 

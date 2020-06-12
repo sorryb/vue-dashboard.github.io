@@ -6,7 +6,7 @@
         <v-toolbar color="cyan" dark>
           <v-toolbar-side-icon></v-toolbar-side-icon>
 
-          <v-toolbar-title>Inbox</v-toolbar-title>
+          <v-toolbar-title>Notification Inbox</v-toolbar-title>
 
           <v-spacer></v-spacer>
 
@@ -66,37 +66,37 @@ export default {
         { header: 'Today' },
         {
           avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg',
-          title: 'Brunch this weekend?',
+          title: 'Working this weekend?',
           isStarred: false,
-          subtitle: "<span class='text--primary'>Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?",
+          subtitle: "<span class='text--primary'>Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to haresolve something?",
         },
         { divider: true, inset: true },
         {
           avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg',
-          title: 'Summer BBQ <span class="grey--text text--lighten-1">4</span>',
+          title: 'Summer Checks <span class="grey--text text--lighten-1">4</span>',
           isStarred: false,
-          subtitle: "<span class='text--primary'>to Alex, Scott, Jennifer</span> &mdash; Wish I could come, but I'm out of town this weekend.",
+          subtitle: "<span class='text--primary'>to Alex, Scott, Jennifer</span> &mdash; This week starts the checks for this summer.",
         },
         { divider: true, inset: true },
         {
           avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg',
-          title: 'Oui oui',
+          title: 'Flour, milk powder or grain dusts',
           isStarred: false,
-          subtitle: "<span class='text--primary'>Sandra Adams</span> &mdash; Do you have Paris recommendations? Have you ever been?",
+          subtitle: "<span class='text--primary'>Sandra Adams</span> &mdash; Exposure to organic dusts can result in severe health impacts, including respiratory irritation and occupational asthma.",
         },
         { divider: true, inset: true },
         {
           avatar: 'https://cdn.vuetifyjs.com/images/lists/4.jpg',
-          title: 'Birthday gift',
+          title: 'Use of display screen equipment',
           isStarred: false,
-          subtitle: "<span class='text--primary'>Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?",
+          subtitle: "<span class='text--primary'>Trevor Hansen</span> &mdash; Prolonged use of poorly designed workstations can result in a range of ill-health effects",
         },
         { divider: true, inset: true },
         {
           avatar: 'https://cdn.vuetifyjs.com/images/lists/5.jpg',
-          title: 'Recipe to try',
+          title: 'Workplace aggression and abuse',
           isStarred: false,
-          subtitle: "<span class='text--primary'>Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos.",
+          subtitle: "<span class='text--primary'>Britta Holt</span> &mdash; Whether it’s from a colleague, client or someone else, workplace aggression and abuse can have serious effects on someone’s mental and physical health.",
         }
       ],
     }
@@ -106,7 +106,7 @@ export default {
     openDetail() {
       const vm = this;
 
-      
+
     }
   }
 }

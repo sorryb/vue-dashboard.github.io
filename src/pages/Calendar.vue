@@ -8,10 +8,10 @@
         <v-card-title class="headline">{{ selectedEvent.title }}</v-card-title>
 
         <v-card-text>
-          Event Start At: {{ selectedEvent.start }}
+          Hazard Reported At: {{ selectedEvent.start + ' 15:25' }}
         </v-card-text>
         <v-card-text>
-          Event End At: {{ selectedEvent.end }}
+          Hazard Resolved At: {{ selectedEvent.end + ' 18:05'}}
         </v-card-text>
 
         <v-card-actions>
@@ -21,7 +21,7 @@
             color="green darken-1"
             flat="flat"
             @click="dialog = false">
-            Okey
+            Ok
           </v-btn>
         </v-card-actions>
       </v-card>
@@ -31,35 +31,35 @@
       v-model="dialogCreateEvent"
       max-width="525">
       <v-card v-if="dialogCreateEvent">
-        <v-card-title class="headline">Do you want to create event on {{ createEventDate.toLocaleDateString() }} ?</v-card-title>
+        <v-card-title class="headline">Do you want to create new hazard on {{ createEventDate.toLocaleDateString() }} ?</v-card-title>
 
         <v-card-text>
           <v-text-field
             v-model="newEventTitle"
-            label="Title"
-            hint="Type event title" />
+            label="Hazard Description"
+            hint="Type hazard name and choose category" />
         </v-card-text>
 
         <v-card-text>
           <v-radio-group v-model="selectedEventClass" row>
             <v-radio
-              label="Default"
+              label="Danger"
               color="blue"
               value=""/>
             <v-radio
-              label="Caution"
+              label="Easy"
               color="red"
               value="event-item-caution"/>
             <v-radio
-              label="Meeting"
+              label="Facilities"
               color="green"
               value="event-item-meeting"/>
             <v-radio
-              label="Warning"
+              label="Food"
               color="yellow"
               value="event-item-warning"/>
             <v-radio
-              label="Trip"
+              label="For ITS"
               color="purple"
               value="event-item-trip"/>
           </v-radio-group>
@@ -96,7 +96,7 @@
 export default {
   data() {
     var d = new Date();
-    
+
     return {
       dialog: false,
       dialogCreateEvent: false,
@@ -106,65 +106,94 @@ export default {
       selectedEvent: null,
       events: [
         {
-          title : 'Test',
+          title : 'A brocken glass',
           start : `${d.getFullYear()}-${d.getMonth()+1}-01`,
           end : `${d.getFullYear()}-${d.getMonth()+1}-03`,
           cssClass : 'event-item-caution',
         },
         {
-          title : 'Meeting',
+          title : 'Meeting Room  Issues',
           start : `${d.getFullYear()}-${d.getMonth()+1}-05`,
           end : `${d.getFullYear()}-${d.getMonth()+1}-07`,
           cssClass : 'event-item-trip'
         },
         {
-          title : 'Europe Trip',
+          title : 'Elevator Trip with sounds',
           start : `${d.getFullYear()}-${d.getMonth()+1}-03`,
           end : `${d.getFullYear()}-${d.getMonth()+1}-07`,
           cssClass : 'event-item-warning'
         },
         {
-          title : 'Event',
-          start : `${d.getFullYear()}-${d.getMonth()+1}-12`,
+          title : 'Dangerous Event on balcony',
+          start : `${d.getFullYear()}-${d.getMonth()+1}-02`,
           cssClass : 'event-item-meeting'
         },
         {
-          title : 'Event',
-          start : `${d.getFullYear()}-${d.getMonth()+1}-16`,
+          title : 'Some troubleshoot',
+          start : `${d.getFullYear()}-${d.getMonth()+1}-04`,
           cssClass : 'event-item-meeting'
         },
         {
-          title : 'Europe Trip',
-          start : `${d.getFullYear()}-${d.getMonth()+1}-20`,
-          end : `${d.getFullYear()}-${d.getMonth()+1}-23`,
+          title : 'Issues with water',
+          start : `${d.getFullYear()}-${d.getMonth()+1}-05`,
+          end : `${d.getFullYear()}-${d.getMonth()+1}-05`,
           cssClass : 'event-item-caution'
         },
 
         {
-          title : 'Test',
+          title : 'Desk issue on floor 2',
           start : `${d.getFullYear()}-${d.getMonth()+1}-05`,
           cssClass : 'event-item-caution'
         },
         {
-          title : 'Test',
-          start : `${d.getFullYear()}-${d.getMonth()+1}-27`,
-          end : `${d.getFullYear()}-${d.getMonth()+1}-28`,
+          title : 'Some inadvertance in meeting room Everest',
+          start : `${d.getFullYear()}-${d.getMonth()+1}-09`,
+          end : `${d.getFullYear()}-${d.getMonth()+1}-09`,
           cssClass : 'event-item-meeting'
         },
         {
-          title : 'Test',
-          start : `${d.getFullYear()}-${d.getMonth()+1}-17`,
-          end : `${d.getFullYear()}-${d.getMonth()+1}-19`,
+          title : 'Dangerous floor',
+          start : `${d.getFullYear()}-${d.getMonth()+1}-10`,
+          end : `${d.getFullYear()}-${d.getMonth()+1}-10`,
           cssClass : 'event-item-trip'
         },
         {
-          title : 'Event example',
+          title : 'Hazard example 1',
           start : `${d.getFullYear()}-${d.getMonth()+1}-08`,
           cssClass : 'event-item-meeting'
         },
         {
-          title : 'Event example',
-          start : `${d.getFullYear()}-${d.getMonth()+1}-16`,
+          title : 'Hazard example 2',
+          start : `${d.getFullYear()}-${d.getMonth()+1}-11`,
+          cssClass : 'event-item-meeting'
+        },
+        //----last month
+        {
+          title : 'Issues with milk',
+          start : `${d.getFullYear()}-${d.getMonth()}-20`,
+          end : `${d.getFullYear()}-${d.getMonth()}-23`,
+          cssClass : 'event-item-caution'
+        },
+        {
+          title : 'Some problems in meeting room Floor4',
+          start : `${d.getFullYear()}-${d.getMonth()}-27`,
+          end : `${d.getFullYear()}-${d.getMonth()}-28`,
+          cssClass : 'event-item-meeting'
+        },
+		{
+          title : 'Dangerous floor in bathroom',
+          start : `${d.getFullYear()}-${d.getMonth()}-17`,
+          end : `${d.getFullYear()}-${d.getMonth()}-19`,
+          cssClass : 'event-item-trip'
+        },
+        {
+          title : 'Fail to start printer',
+          start : `${d.getFullYear()}-${d.getMonth()}-08`,
+          cssClass : 'event-item-meeting'
+        },
+        {
+          title : 'Room with smoke',
+          start : `${d.getFullYear()}-${d.getMonth()}-16`,
           cssClass : 'event-item-meeting'
         }
       ]
@@ -192,7 +221,7 @@ export default {
       const vm = this;
 
       vm.events.push({
-        title: vm.newEventTitle ? vm.newEventTitle : 'Sample Event',
+        title: vm.newEventTitle ? vm.newEventTitle : 'New Hazards',
         start: vm.createEventDate,
         cssClass: vm.selectedEventClass ? vm.selectedEventClass : null
       });
